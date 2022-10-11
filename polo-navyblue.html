@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>กองบริหารทรัพยากรบุคคล สป.ยธ.</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1655968940-9z2mXl4n" })
+            if (liff.isLoggedIn()) {
+              // Login แล้วจ้า
+            } else {
+              liff.login()
+            }
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    altText: "ข้อความจากกองบริหารทรัพยากรบุคคล",
+                    contents:
+                    {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/49OnYDn.jpg",
+                "size": "full",
+                "aspectRatio": "2048:1365",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ร้านค้าสวัสดิการ สป.ยธ.",
+                    "size": "sm",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "offsetTop": "-5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/VGyiyVd.png",
+                    "offsetTop": "3px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0 2141 5173, 74",
+                    "margin": "md",
+                    "size": "sm",
+                    "color": "#595959",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415173"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415174"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  }
+                ]
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg",
+            "offsetTop": "-10px"
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/iznsvGF.jpg",
+                "size": "full",
+                "aspectRatio": "1566:1044",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ร้านค้าสวัสดิการ สป.ยธ.",
+                    "size": "sm",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "offsetTop": "-5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/VGyiyVd.png",
+                    "offsetTop": "3px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0 2141 5173, 74",
+                    "margin": "md",
+                    "size": "sm",
+                    "color": "#595959",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415173"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415174"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  }
+                ]
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg",
+            "offsetTop": "-10px"
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/QmDYHST.jpg",
+                "size": "full",
+                "aspectRatio": "2048:1365",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ร้านค้าสวัสดิการ สป.ยธ.",
+                    "size": "sm",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "offsetTop": "-5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/VGyiyVd.png",
+                    "offsetTop": "3px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0 2141 5173, 74",
+                    "margin": "md",
+                    "size": "sm",
+                    "color": "#595959",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415173"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415174"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  }
+                ]
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg",
+            "offsetTop": "-10px"
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/hmA1HzN.jpg",
+                "size": "full",
+                "aspectRatio": "2048:1365",
+                "aspectMode": "cover"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "New",
+                "color": "#ffffff",
+                "align": "center",
+                "size": "sm",
+                "gravity": "center"
+              }
+            ],
+            "position": "absolute",
+            "width": "53px",
+            "height": "23px",
+            "backgroundColor": "#ff334b",
+            "cornerRadius": "20px",
+            "offsetStart": "18px",
+            "offsetTop": "18px"
+          }
+        ],
+        "paddingAll": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "ร้านค้าสวัสดิการ สป.ยธ.",
+                    "size": "sm",
+                    "weight": "bold"
+                  }
+                ]
+              }
+            ],
+            "offsetTop": "-5px"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "baseline",
+                "contents": [
+                  {
+                    "type": "icon",
+                    "url": "https://i.imgur.com/VGyiyVd.png",
+                    "offsetTop": "3px"
+                  },
+                  {
+                    "type": "text",
+                    "text": "0 2141 5173, 74",
+                    "margin": "md",
+                    "size": "sm",
+                    "color": "#595959",
+                    "flex": 0
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415173"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  },
+                  {
+                    "type": "text",
+                    "text": "กดโทร",
+                    "size": "md",
+                    "decoration": "underline",
+                    "action": {
+                      "type": "uri",
+                      "uri": "tel:021415174"
+                    },
+                    "color": "#4d5cd4",
+                    "align": "end"
+                  }
+                ]
+              }
+            ],
+            "spacing": "sm",
+            "margin": "lg",
+            "offsetTop": "-10px"
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingTop": "5px",
+        "paddingBottom": "12px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/x3f0sxO.jpg",
+                "size": "full",
+                "aspectRatio": "1080:815",
+                "aspectMode": "cover"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "uri": "https://www.facebook.com/165686423902052/posts/pfbid02Df8Lhi2efJHfC4sGTi6o8e7zqfmV4hRGEsGpkpfGkFTaYtR61Yi7CNp96qW8MibNl"
+            }
+          }
+        ],
+        "paddingBottom": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "12px",
+        "paddingTop": "0px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    },
+    {
+      "type": "bubble",
+      "header": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://i.imgur.com/8vVLf2w.jpg",
+                "size": "full",
+                "aspectRatio": "1080:592",
+                "aspectMode": "cover"
+              }
+            ],
+            "action": {
+              "type": "uri",
+              "uri": "https://www.facebook.com/165686423902052/posts/pfbid02Df8Lhi2efJHfC4sGTi6o8e7zqfmV4hRGEsGpkpfGkFTaYtR61Yi7CNp96qW8MibNl"
+            }
+          }
+        ],
+        "paddingBottom": "0px"
+      },
+      "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "0px"
+      },
+      "footer": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "button",
+                "style": "primary",
+                "action": {
+                  "type": "uri",
+                  "label": "ติดต่อสอบถาม",
+                  "uri": "https://m.me/MOJWelfareShop"
+                },
+                "height": "sm",
+                "color": "#4d5cd4"
+              },
+              {
+                "type": "button",
+                "style": "primary",
+                "margin": "md",
+                "action": {
+                  "type": "uri",
+                  "label": "แชร์ให้เพื่อน",
+                  "uri": "https://liff.line.me/1655968940-9z2mXl4n"
+                },
+                "height": "sm"
+              }
+            ]
+          }
+        ],
+        "backgroundColor": "#ffffff",
+        "paddingBottom": "12px",
+        "paddingTop": "0px"
+      },
+      "styles": {
+        "body": {
+          "backgroundColor": "#ffffff"
+        },
+        "footer": {
+          "backgroundColor": "#ffffff"
+        }
+      }
+    }
+  ]
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>
