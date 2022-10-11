@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>กองบริหารทรัพยากรบุคคล สป.ยธ.</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1655968940-1RodDAkq" })
+            await liff.sendMessages([
+                {
+                    type: "flex",
+                    altText: "ข้อความจากกองบริหารทรัพยากรบุคคล",
+                    contents:
+                    {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/cPqY4iU.png",
+    "size": "full",
+    "aspectRatio": "20:13",
+    "aspectMode": "cover",
+    "action": {
+      "type": "uri",
+      "uri": "https://www.youtube.com/watch?v=znoyzLmnAbw"
+    }
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "กองบริหารทรัพยากรบุคคล",
+        "size": "lg",
+        "weight": "bold",
+        "offsetTop": "-5px"
+      },
+      {
+        "type": "text",
+        "text": "สำนักงานปลัดกระทรวงยุติธรรม",
+        "wrap": true,
+        "color": "#595959",
+        "size": "sm"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": []
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "margin": "md",
+        "action": {
+          "type": "uri",
+          "label": "คลิปลาออนไลน์",
+          "uri": "https://www.youtube.com/watch?v=znoyzLmnAbw"
+        },
+        "height": "sm",
+        "color": "#918EF4"
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "margin": "md",
+        "action": {
+          "type": "uri",
+          "label": "แชร์ให้เพื่อน",
+          "uri": "https://liff.line.me/1655968940-D46ydxwe"
+        },
+        "height": "sm"
+      }
+    ],
+    "offsetTop": "-10px"
+  }
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>

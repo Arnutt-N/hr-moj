@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>กองบริหารทรัพยากรบุคคล สป.ยธ.</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1655968940-5r9O6VpZ" })
+            await liff.sendMessages([
+                {
+                    type: "flex",
+                    altText: "ข้อความจากกองบริหารทรัพยากรบุคคล",
+                    contents:
+                  {
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/VukDoHo.jpg",
+            "size": "full",
+            "aspectRatio": "1:1",
+            "aspectMode": "cover",
+            "action": {
+              "type": "uri",
+              "label": "ลงทะเบียน",
+              "uri": "https://docs.google.com/forms/d/1HIlfXbN3i_134bp3V7_MSIthsFwWU-gjRyFlvgmnCaM/edit?usp=sharing"
+            }
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "ตรวจ ATK",
+            "color": "#ffffff",
+            "align": "center",
+            "size": "sm",
+            "gravity": "center"
+          }
+        ],
+        "position": "absolute",
+        "width": "90px",
+        "height": "30px",
+        "backgroundColor": "#4d5cd4",
+        "cornerRadius": "20px",
+        "offsetStart": "20px",
+        "offsetTop": "20px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กองบริหารทรัพยากรบุคคล สป.ยธ.",
+                "size": "14.5px",
+                "weight": "bold"
+              }
+            ]
+          }
+        ],
+        "offsetTop": "-5px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/VGyiyVd.png",
+                "offsetTop": "3px"
+              },
+              {
+                "type": "text",
+                "text": "0 2141 5173, 74",
+                "margin": "md",
+                "size": "sm",
+                "color": "#595959",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "กดโทร",
+                "size": "md",
+                "decoration": "underline",
+                "action": {
+                  "type": "uri",
+                  "uri": "tel:021415173"
+                },
+                "color": "#4d5cd4",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "กดโทร",
+                "size": "md",
+                "decoration": "underline",
+                "action": {
+                  "type": "uri",
+                  "uri": "tel:021415174"
+                },
+                "color": "#4d5cd4",
+                "align": "end"
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "offsetTop": "-10px",
+        "margin": "lg"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "paddingBottom": "0px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "ลงทะเบียน",
+              "uri": "https://docs.google.com/forms/d/1HIlfXbN3i_134bp3V7_MSIthsFwWU-gjRyFlvgmnCaM/edit?usp=sharing"
+            },
+            "height": "sm",
+            "color": "#4d5cd4"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "แชร์ให้เพื่อน",
+              "uri": "https://liff.line.me/1655968940-1RXY5yod"
+            },
+            "height": "sm"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "paddingTop": "5px",
+    "paddingBottom": "12px"
+  },
+  "styles": {
+    "body": {
+      "backgroundColor": "#ffffff"
+    },
+    "footer": {
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
+                  
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>

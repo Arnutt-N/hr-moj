@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>กองบริหารทรัพยากรบุคคล สป.ยธ.</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1655968940-50W089Pd" })
+            await liff.sendMessages([
+                {
+                    type: "flex",
+                    altText: "ข้อความจากกองบริหารทรัพยากรบุคคล",
+                    contents:
+                 {
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/UMlfEoX.jpg",
+    "size": "full",
+    "aspectRatio": "6:4.5",
+    "aspectMode": "cover"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "text",
+            "text": "กองบริหารทรัพยากรบุคคล สป.ยธ.",
+            "size": "sm",
+            "weight": "bold"
+          }
+        ],
+        "offsetTop": "-5px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/VGyiyVd.png",
+                "offsetTop": "3px"
+              },
+              {
+                "type": "text",
+                "text": "0 2141 5173",
+                "margin": "md",
+                "size": "sm",
+                "color": "#595959"
+              },
+              {
+                "type": "text",
+                "text": "กดโทร",
+                "size": "md",
+                "decoration": "underline",
+                "action": {
+                  "type": "uri",
+                  "uri": "tel:021415173"
+                },
+                "color": "#4d5cd4",
+                "align": "end"
+              }
+            ]
+          }
+        ],
+        "margin": "sm"
+      },
+      {
+        "type": "text",
+        "text": "เปิดลงทะเบียน ตั้งแต่วันนี้ - 2 กันยายน 2565",
+        "color": "#737373",
+        "size": "sm",
+        "wrap": true,
+        "margin": "lg",
+        "align": "center"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "spacing": "md"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "margin": "md",
+        "action": {
+          "type": "uri",
+          "label": "ลงทะเบียน",
+          "uri": "https://shorturl.asia/Q1o6O"
+        },
+        "height": "sm",
+        "color": "#4d5cd4"
+      },
+      {
+        "type": "button",
+        "style": "primary",
+        "margin": "md",
+        "action": {
+          "type": "uri",
+          "label": "แชร์ให้เพื่อน",
+          "uri": "https://liff.line.me/1655968940-RwYe3QN9"
+        },
+        "height": "sm",
+        "color": "#4d5cd4"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "paddingTop": "0px",
+    "offsetTop": "-3px"
+  },
+  "styles": {
+    "body": {
+      "backgroundColor": "#ffffff"
+    },
+    "footer": {
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
+                  
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>

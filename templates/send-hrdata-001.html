@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+    <title>กองบริหารทรัพยากรบุคคล สป.ยธ.</title>
+
+</head>
+
+<body>
+
+    <script src="https://static.line-scdn.net/liff/edge/2/sdk.js"></script>
+    <script>
+        async function main() {
+            await liff.init({ liffId: "1655968940-yeWb1zRw" })
+            await liff.sendMessages([
+                {
+                    type: "flex",
+                    altText: "ข้อความจากกองบริหารทรัพยากรบุคคล",
+                    contents:
+                  {
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "image",
+            "url": "https://i.imgur.com/T1iN8zs.png",
+            "size": "full",
+            "aspectRatio": "5:4",
+            "aspectMode": "cover"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "รายละเอียด",
+            "color": "#ffffff",
+            "align": "center",
+            "size": "sm",
+            "gravity": "center"
+          }
+        ],
+        "position": "absolute",
+        "width": "90px",
+        "height": "30px",
+        "backgroundColor": "#918EF4",
+        "cornerRadius": "8px",
+        "offsetBottom": "27px",
+        "action": {
+          "type": "uri",
+          "label": "รายละเอียด",
+          "uri": "https://www.moj.go.th/news/149"
+        },
+        "offsetStart": "40px"
+      }
+    ],
+    "paddingAll": "0px"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "text",
+                "text": "กองบริหารทรัพยากรบุคคล สป.ยธ.",
+                "size": "14.5px",
+                "weight": "bold"
+              }
+            ]
+          }
+        ],
+        "offsetTop": "-5px"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://i.imgur.com/Cbg560K.png",
+                "offsetTop": "3px"
+              },
+              {
+                "type": "text",
+                "text": "0 2141 5190, 92",
+                "margin": "md",
+                "size": "sm",
+                "color": "#595959",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "กดโทร",
+                "size": "md",
+                "decoration": "underline",
+                "action": {
+                  "type": "uri",
+                  "uri": "tel:021415190"
+                },
+                "color": "#918EF4",
+                "align": "end"
+              },
+              {
+                "type": "text",
+                "text": "กดโทร",
+                "size": "md",
+                "decoration": "underline",
+                "action": {
+                  "type": "uri",
+                  "uri": "tel:021415192"
+                },
+                "color": "#918EF4",
+                "align": "end"
+              }
+            ]
+          }
+        ],
+        "spacing": "sm",
+        "offsetTop": "-10px",
+        "margin": "lg"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "paddingBottom": "0px"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "action": {
+              "type": "uri",
+              "label": "DPIS สป.ยธ.",
+              "uri": "http://dpis.moj.go.th:88"
+            },
+            "height": "sm",
+            "color": "#918EF4"
+          },
+          {
+            "type": "button",
+            "style": "primary",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "DPIS สร.ยธ.",
+              "uri": "http://dpis.moj.go.th:89"
+            },
+            "height": "sm",
+            "color": "#918EF4"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "button",
+            "style": "primary",
+            "margin": "md",
+            "action": {
+              "type": "uri",
+              "label": "แชร์ให้เพื่อน",
+              "uri": "https://liff.line.me/1655968940-AZV302KQ"
+            },
+            "height": "sm"
+          }
+        ]
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "paddingTop": "5px",
+    "paddingBottom": "12px"
+  },
+  "styles": {
+    "body": {
+      "backgroundColor": "#ffffff"
+    },
+    "footer": {
+      "backgroundColor": "#ffffff"
+    }
+  }
+}
+                  
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+
+</html>
